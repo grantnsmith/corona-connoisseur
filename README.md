@@ -1,2 +1,2 @@
-# Group-Project-1
+# Support Local Restaurants
 First Bootcamp Project
