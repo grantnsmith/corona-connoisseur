@@ -1,26 +1,19 @@
+const GOOGLE_API_KEY = 'AIzaSyAuAw09DnunxYW9E9SjcKvYanUYhWcOdLA';
 
 
-function testingAPI() {
-queryURL = "https://api.yelp.com/v3/businesses/search?term=pizza?location=Seattle";
 
 
-    $.ajax({
-        url: queryURL,
-        headers: {
-            'Authorization':'Bearer T70YHIWJA6ASHZ612TjqJG1AJWR0Xn-9fjik3GHwDfnCr0UGGgOFmh9Juyj9tQ7QjmxaaQhQqa3NyWMyhFxNMx4RH-MW3AVOF-iDhMWQf3C76tW-_kd8K-NuYt6PXnYx'
-        },
-          method: 'GET',
-    }).done(function(response){
-        console.log(response);
-    })
+var url = reverseGeoLocationUrl(70, -90);
+
+console.log(url)
+
+
+
+
+function reverseGeoLocationUrl(lat, lon){
+    const baseURL = 'https://maps.googleapis.com/maps/api/geocode/json?'
+    const query = 'latlng=' + lat + ',' + lon
+    const key = '&key=' + GOOGLE_API_KEY;
+
+    return baseURL + query + key;
 }
-
-testingAPI();
-
-
-
-
-
-
-
-
