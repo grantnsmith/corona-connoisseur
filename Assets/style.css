@@ -58,3 +58,23 @@ a {
     color: white;
     text-decoration: underline;
 }
+
+h1{
+    font-family: 'Righteous', cursive !important; 
+}
+
+h2 {
+    font-family: 'Righteous', cursive !important;
+}
+
+h3 {
+    font-family: 'Righteous', cursive !important;
+}
+
+h4 {
+    font-family: 'Righteous', cursive !important;
+}
+
+li {
+    color: #3f51b5 !important;
+}
