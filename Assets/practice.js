@@ -16,7 +16,7 @@ var latitude , longtitude;
         var lat = position.coords.latitude;
         myCurLat = lat;
         var long = position.coords.longitude;
-        myCurLong = long;
+        myCurLat = lat;
         var location = lat + "," + long;
         searchRestaurants(location);
     };
@@ -104,7 +104,7 @@ var latitude , longtitude;
     // CREATING VARIABLES FROM JSON OBJECT RESULTS
         var myLatlng = new google.maps.LatLng(myCurLat, myCurLong);
         var myOptions = {
-            zoom:11,
+            zoom: 15,
             center: myLatlng,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }
@@ -128,9 +128,10 @@ var latitude , longtitude;
         console.log(latitude);
         console.log(longtitude) 
         plotPoint(map, latitude,longtitude,name);
+        
     // CREATING RESTAURANT RESULT ELEMENTS
         var restaurantColDiv = $("<div class='col s12 m6 l6'></div>");
-        var restaurantDiv = $("<div class='card-panel indigo lighten-2'></div>");
+        var restaurantDiv = $("<div class='card-panel teal lighten-5'></div>");
         var restaurantNameEl = $("<span class='card-title'  id='restaurant-header'>" + name + "</span>");
         var openNowEl = $("<p>OPEN NOW</p>");
         var ratingEl = $("<p>Google rating: " + rating + " / 5" + "</p>");
@@ -174,7 +175,7 @@ var map, infoWindow;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -34.397, lng: 150.644},
-    zoom: 13
+    zoom: 15
   });
   infoWindow = new google.maps.InfoWindow;
 
