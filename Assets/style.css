@@ -127,4 +127,12 @@ li {
     .file-field .btn {
         margin-left: 15% !important;
     }
+
+    #deliveryBtn {
+        margin-left: 33%;
+    }
+
+    #takeawayBtn {
+        margin-left: 33%;
+        margin-top: 5%;
   }
