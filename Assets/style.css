@@ -115,4 +115,16 @@ li {
      margin-left: 2%;
      margin-right: 2%;
     }
+
+    #locationBtn {
+        margin-left: 12%;
+    }
+
+    #searchRange {
+        margin-left: 12%;
+    }
+
+    .file-field .btn {
+        margin-left: 15% !important;
+    }
   }
