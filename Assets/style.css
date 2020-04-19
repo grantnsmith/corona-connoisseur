@@ -16,19 +16,12 @@ nav {
 .card {
     margin-left: 20%;
     margin-right: 20%;
-    /* padding-bottom: 30%; */
 }
 
 .card-title {
     font-weight: bolder !important;
     font-family: 'Righteous', cursive !important;
 }
-    /* map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    height:0;
-    position: relative;
-} */
 
 #map {
     position: relative;
@@ -115,4 +108,17 @@ li {
 
   #inputRow {
       margin-bottom: -10%;
+  }
+
+  @media screen and (max-width: 600px) {
+      #mapCard {
+          border: none !important;
+          border-color: white !important;
+          border-width: 5px;
+          border-style: hidden !important;
+      }
+      .card {
+     margin-left: 2%;
+     margin-right: 2%;
+    }
   }
