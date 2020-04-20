@@ -31,7 +31,7 @@
 ## Application in Action
 ****************************
 ## Deployed Link
-* https://bremnerdc.github.io/Group-Project-1/
+* https://grantnsmith.github.io/corona-connoisseur/
 ## Future features to add
 * Add a "Favorite" or "Past Search" option for users to do quick searches
 * Add the ability for users to search by food type
