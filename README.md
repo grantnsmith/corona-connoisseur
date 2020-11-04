@@ -29,15 +29,11 @@
 * Clear communication
 * Adapting the vision as the project went along
 * Focues on producing MVP
-## Application in Action
-****************************
-## Deployed Link
-* https://grantnsmith.github.io/corona-connoisseur/
 ## Future features to add
 * Add a "Favorite" or "Past Search" option for users to do quick searches
 * Add the ability for users to search by food type
 * Enable an interactive map that displays restaurants and allow users to click to show more information
-## Presentation
-[Corona Connoisseur - Group 1 Project Presentation.pdf](https://github.com/bremnerdc/Group-Project-1/files/4497594/Corono.Connoisseur.-.Group.1.Project.Presentation.pdf)
-## GIF of Website in Action
-https://drive.google.com/file/d/1YzU6QEz_uOXVu1PFHW6KY9tvS49Qj02V/view
+## Contact Us
+If you have any questions, please contact me:
+* GitHub at [grantnsmith](https://github.com/grantnsmith)
+* Email at [grantnsmith@gmail.com](mailto:grantnsmith@gmail.com)
