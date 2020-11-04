@@ -1,5 +1,6 @@
 # Support Local Restaurants
-* Finding local restaurants that are currently open and available for either take out or delivery
+* Finding local restaurants that are currently open and available for either take out or delivery.
+* Deployed Application: https://grantnsmith.github.io/corona-connoisseur/
 ## User Story
 * “As a foodie during the Covid-19 pandemic, I want to know what local restaurants I can still frequent.”
 ## What it does
